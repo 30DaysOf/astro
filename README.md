@@ -1,23 +1,54 @@
-# Learn Astro (#in30Days)
+# Learn with #30DaysOfAstro
 
-## Learning Objectives:
- - Learn Astro core concepts
- - Scaffold and build Astro-based sites
- - Containerize and deploy Astro to Azure
- - Build and automate tests with Playwright
- - Convert to a #30Days roadmap when done
+## 1. Learning Objectives
 
-## Learning Resources
+- Understand core Astro concepts
+- Learn core Astro tooling
+- Build, test & deploy an Astro project
+- Use Astro Starlight as documentation framework
 
-This section will be kept updated with key resources used in the learning journey.
+## 2. Dev Container
 
- 1. [Astro Documentation](https://docs.astro.build/en/getting-started/)
+The project is instrumented with a `devcontainer.json` intended for Node.js projects. For convenience, we're using the [Playwright Docker Image](https://playwright.dev/docs/docker#introduction) which also gives us the Playwright testing harness by default. 
 
+Let's check our tooling versions (this should trigger installs automatically if required).
 
-## Repo Structure
+```bash
+node --version
+v20.11.0
 
- - The [learn/](./learn/) folder contains notes from my journey.
- - The [docs/](/docs/) folder will contain a website version (when ready) that is deployed to the GitHub Pages endpoint.
- - The [examples/](/examples/) folder will contain code for complete apps or tutorials described in `learn/`.
+npm --version
+10.4.0
 
- #30DaysOfAstro
+npx playwright --version
+Version 1.41.1
+
+npx astro --version
+astro  v4.2.6
+```
+
+## 3. Astro Starlight Setup
+
+[Astro Starlight](https://starlight.astro.build/getting-started/) is the Astro theme for documentation. We'll use this to create a documentation site for recording the learning journey under the `docs/` folder. Check out [docs/README.md](./docs/README.md) for more details.
+
+To preview the documentation site:
+```bash
+cd docs;
+npm install && npm run dev
+```
+
+## 4. 30DaysOf Roadmap
+
+Learn Astro through a series of small projects that teach different concepts.
+
+| Topic | Description |
+|:---|:---|
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |
+| | |

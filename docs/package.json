@@ -1,8 +1,7 @@
 {
-  "name": "@example/with-nanostores",
+  "name": "docs",
   "type": "module",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -11,10 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.6.0",
-    "preact": "^10.7.3",
-    "@astrojs/preact": "^1.2.0",
-    "nanostores": "^0.5.12",
-    "@nanostores/preact": "^0.1.3"
+    "@astrojs/starlight": "^0.17.0",
+    "astro": "^4.2.1",
+    "sharp": "^0.32.5"
   }
 }
