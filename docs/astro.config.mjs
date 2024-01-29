@@ -6,7 +6,12 @@ export default defineConfig({
 	integrations: [
 
 		starlight({
+
 			title: '30DaysOf Astro',
+			site: 'https://30daysof.github.io',
+			base: '/astro',
+			trailingSlash: "always",
+
 			logo: {
 				light: './src/assets/astro-light.png',
 				dark: './src/assets/astro-dark.png',
